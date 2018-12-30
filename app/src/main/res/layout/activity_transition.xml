@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransitionActivity">
+
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cardExpanded"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:transitionName="@string/transition_cardexpand"-->
+
+        <!--&gt;-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageCardExpand"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:transitionName="@string/transition_cardexpand"
+                android:src="@drawable/image_daredevil"
+                />
+
+
+            <TextView
+                android:id="@+id/textCardExpand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/imageCardExpand"
+                android:text="Press to Expand"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+
+
+                />
+
+        </RelativeLayout>
+    <!--</android.support.v7.widget.CardView>-->
+
+
+</android.support.constraint.ConstraintLayout>

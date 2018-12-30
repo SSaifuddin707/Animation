@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageCardScene"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/image_daredevil" />
+
+    <TextView
+        android:id="@+id/textCardScene"
+        android:layout_below="@id/imageCardScene"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scene Transitions"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+
+
